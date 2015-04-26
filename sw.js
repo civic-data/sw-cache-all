@@ -3,9 +3,11 @@
 self.CACHE_NAME = 'cats-pictures-v1';
 
 // and require the sw-cache-all
-require('../../index.js');
+//require('../../index.js');
+require('index.js');
 
-},{"../../index.js":2}],2:[function(require,module,exports){
+//},{"../../index.js":2}],2:[function(require,module,exports){
+},{"index.js":2}],2:[function(require,module,exports){
 // caches polyfill because it is not added to native yet!
 var caches = require('./lib/serviceworker-caches');
 
